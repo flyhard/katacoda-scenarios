@@ -33,3 +33,7 @@ kubectl port-forward $POD_NAME 8080:8080 --namespace default`{{execute}}
 Now chartmuseum should be ready to use at
 
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+
+## Now add chartmuseum as a helm repo
+
+`helm repo add chartmuseum http://localhost:8080/` 

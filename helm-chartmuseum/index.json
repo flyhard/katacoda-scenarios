@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-      "title": "Step 1 - Run Command",
+      "title": "Step 1 - Setup chartmuseum",
       "text": "step1.md"
       }
     ],
