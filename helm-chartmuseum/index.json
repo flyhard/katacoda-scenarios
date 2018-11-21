@@ -15,14 +15,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "start.sh",
-          "target": "~/"
-        }
-      ]
     }
   },
   "environment": {
