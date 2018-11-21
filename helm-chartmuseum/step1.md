@@ -36,4 +36,8 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 ## Now add chartmuseum as a helm repo
 
-`helm repo add chartmuseum http://localhost:8080/` 
+`helm repo add chartmuseum http://localhost:8080/`{{execute}}
+
+and verify it is there:
+
+`helm repo list`{{execute}}

@@ -8,6 +8,10 @@
       {
       "title": "Step 1 - Setup chartmuseum",
       "text": "step1.md"
+      },
+      {
+      "title": "Step 2 - Create a chart, push it and then run it with helm",
+      "text": "step2.md"
       }
     ],
     "intro": {
