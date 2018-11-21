@@ -18,11 +18,22 @@
     "finish": {
       "text": "finish.md"
     },
-    "assets": {"client": [{
-      "file": "*.sh",
-      "target": "/root",
-      "chmod": "+x"
-    }]}
+    "assets": {
+      "client": [
+        {
+          "file": "*.sh",
+          "target": "/root",
+          "chmod": "+x"
+        }
+      ],
+      "host1": [
+        {
+          "file": "*.sh",
+          "target": "/root",
+          "chmod": "+x"
+        }
+      ]
+    }
   },
   "environment": {
     "uilayout": "terminal",
