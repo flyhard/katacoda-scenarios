@@ -12,6 +12,10 @@ Deploy helm to you cluster
 
 `helm init`{{execute}}
 
+then wait for tiller to be ready:
+
+`kubectl get pod -n kube-system -l app=helm -l name=tiller`{{execute}}
+
 ## Install chartmuseum
 
 `helm upgrade --install chartmuseum stable/chartmuseum --set env.open.DISABLE_API=false`{{execute}}
