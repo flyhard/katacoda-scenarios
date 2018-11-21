@@ -8,10 +8,13 @@
 
 ## push it to chartmuseum
 
-`helm push mychart chartmuseum`{{execute}}
+`helm push mytest chartmuseum`{{execute}}
 
 ## Search for your chart (again)
 
+### Update the repo locally
+`helm repo update chartmuseum`{{execute}}
+### search the repo
 `helm search mytest`{{execute}}
 
 ## Deploy your chart
