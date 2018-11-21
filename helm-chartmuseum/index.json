@@ -4,14 +4,15 @@
   "difficulty": "beginner",
   "time": "5 minutes",
   "details": {
-    "steps": [{
+    "steps": [
+      {
       "title": "Step 1 - Run Command",
       "text": "step1.md"
-    }],
+      }
+    ],
     "intro": {
       "text": "intro.md",
-      "credits": "",
-      "courseData": "start.sh"
+      "courseData": "courseBase.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -22,6 +23,7 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
+    "port": 8080,
     "imageid": "kubernetes"
   }
 }
