@@ -11,10 +11,18 @@
     "intro": {
       "text": "intro.md",
       "credits": "",
-      "courseData": "launch.sh"
+      "courseData": "start.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "start.sh",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
