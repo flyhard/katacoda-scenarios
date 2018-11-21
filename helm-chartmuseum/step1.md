@@ -1,4 +1,6 @@
+## Launch kubernetes
 
+`launch.sh`{{execute}}
 
 ## Install Helm into your cluster
 
