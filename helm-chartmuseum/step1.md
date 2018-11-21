@@ -15,6 +15,8 @@ Deploy helm to you cluster
 then wait for tiller to be ready:
 
 `kubectl get pod -n kube-system -l app=helm -l name=tiller`{{execute}}
+or wait for it with :
+`kubectl wait pod -l app=helm --for condition=ready -n kube-system`
 
 ## Install chartmuseum
 
